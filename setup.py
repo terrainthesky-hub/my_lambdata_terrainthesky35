@@ -15,4 +15,4 @@ setup(
     url="https://github.com/terrainthesky-hub/my_lambdata_terrainthesky35",
     #keywords="",
     packages=find_packages() # ["my_lambdata"]
-)
+)git 
