@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="my_lamdata_terrainthesky35", # the name that you will install via pip
-    version="1.35",
+    version="1.36",
     author="lesley",
     author_email="your@email.com",
     description="A short description",
