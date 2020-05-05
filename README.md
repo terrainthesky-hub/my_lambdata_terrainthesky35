@@ -4,7 +4,7 @@
 
 
 Datetimeextrator class can be imported and you can then use the 
-datetimeconversion to extract the year, month, and day and spit out a dataframe called datetime_df.
+datetimeconversion to extract the year, month, and day and spit out a dataframe in year, month, and day.
 
 Parameters: pandas datetime dataframe
 
