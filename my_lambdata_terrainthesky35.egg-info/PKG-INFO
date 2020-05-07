@@ -1,10 +1,10 @@
 Metadata-Version: 2.1
 Name: my-lambdata-terrainthesky35
-Version: 1.36
-Summary: A short description
+Version: 1.37
+Summary: Datetimeextractor and train, val, test splitter
 Home-page: https://github.com/terrainthesky-hub/my_lambdata_terrainthesky35
-Author: lesley
-Author-email: your@email.com
+Author: Lesley Rich
+Author-email: lesley.t.rich@gmail.com
 License: UNKNOWN
 Description: # my_lambdata_terrainthesky35
         
@@ -12,7 +12,7 @@ Description: # my_lambdata_terrainthesky35
         
         
         Datetimeextrator class can be imported and you can then use the 
-        datetimeconversion to extract the year, month, and day and spit out a dataframe called datetime_df.
+        datetimeconversion to extract the year, month, and day and spit out a dataframe in year, month, and day.
         
         Parameters: pandas datetime dataframe
         

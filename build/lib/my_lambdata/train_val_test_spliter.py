@@ -2,17 +2,6 @@
 from sklearn.model_selection import train_test_split
 
 def train_test_wrangle(data, target):
-    """Takes in a pandas dataframe as your X and a target
-    as your y. Returns X_train, y_train, X_val, y_val, X_test.
-
-    Arguments:
-        data {[pd.DataFrame]} -- [description]
-        target {[pd.DataFrame} -- [description]
-
-    Returns:
-        [X_train, y_train, X_val,
-        y_val, X_test] -- [80/20/20 percentage split respectively]
-    """
     # Train 80% / Test 20%
     train, test = train_test_split(data, train_size=0.8, test_size=0.2, random_state=42)
     # Train 75% / Val 25% (default)
