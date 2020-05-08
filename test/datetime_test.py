@@ -4,9 +4,8 @@ import pandas as pd
 
 class datechecker(unittest.TestCase):
     def test_month(self):
-        x = ({'Date': "12-13-2001"})
-        x = pd.DataFrame(x)
-        DateTimeExtractor(x).datetimeconversion()
-        breakpoint()
-        self.assertEqual(month, 12)
-
+        data = ['12-08-2012']
+        df = pd.DataFrame(data, columns=['Date'])
+        year, month, day, df2 = DateTimeExtractor(df['Date']).datetimeconversion()
+        print(month)
+        self.assertEqual(month[0], 12)
